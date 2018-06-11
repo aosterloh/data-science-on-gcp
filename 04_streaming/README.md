@@ -50,7 +50,7 @@ If you didn't go through Chapter 2, the simplest way to get the files you need i
 	gsutil cp airports.csv.gz gs://<BUCKET-NAME>/flights/airports/airports.csv.gz
 	./df06.py -p $DEVSHELL_PROJECT_ID -b <BUCKETNAME> 
 	``` 
-* Go to the GCP web console and wait for the Dataflow ch04timecorr job to finish. It might take several  
+* Go to the GCP web console and wait for the Dataflow ch04timecorr job to finish. It might take several minutes.   
 * Then, navigate to the BigQuery console and type in:
 	```
 			SELECT
